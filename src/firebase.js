@@ -9,7 +9,7 @@ import { collection,
 // import { Await } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import{FirebaseAuth} from 'firebase/app'
+//import{FirebaseAuth} from 'firebase/app'
 
 
 
@@ -17,7 +17,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyCDOVp8kjeCsXJvpnlY-aj0VDXXOPWZbDQ",
   authDomain: "netflix-clone-3c73e.firebaseapp.com",
   projectId: "netflix-clone-3c73e",
-  storageBucket: "netflix-clone-3c73e.firebasestorage.app",
+  storageBucket: "netflix-clone-258c4.firebasestorage.app",
   messagingSenderId: "237655079693",
   appId: "1:237655079693:web:8ca0d0754d58f656b08e44"
 };
@@ -57,3 +57,5 @@ const logout=()=>{
 }
 
 export {auth,db,login,signup,logout};
+
+    
